@@ -136,13 +136,13 @@ public class WebController {
     }
 
     private RedirectView buildStatusView(String statusMessage) {
-        RedirectView view = new RedirectView("/");
+        RedirectView view = new RedirectView("/pubsub.html");
         view.addStaticAttribute("statusMessage", statusMessage);
         return view;
     }
 
-//    @GetMapping("/")
-//    public String hello() {
-//        return "Hello, I9!";
-//    }
+    @GetMapping("/")
+    public String hello() {
+        return "Hello, I9!";
+    }
 }
