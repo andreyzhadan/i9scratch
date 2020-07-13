@@ -17,4 +17,13 @@ To view your app, use command:
 ```
 gcloud app browse
 ```
-Or navigate to `https://<your-project-id>.appspot.com`.
+Or navigate to `https://scratchi9project.ew.r.appspot.com`.
+
+## Local datastore
+```
+gcloud beta emulators datastore start
+```
+
+## Postman
+
+Import JSON file as a project to Postman to test datastore endpoints.
